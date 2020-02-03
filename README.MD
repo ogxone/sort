@@ -1,11 +1,16 @@
-## Merge sort
 ### Run test
 ```shell script
 pytest merge_test.py 
 ```
 ### Run example
+#### Merge sort
 ```shell script
 python -m merge 64 1 5 23 63
+```
+
+#### Quick sort
+```shell script
+python -m quick 64 1 5 23 63
 ```
 
 Example output:
