@@ -13,6 +13,16 @@ python -m merge 64 1 5 23 63
 python -m quick 64 1 5 23 63
 ```
 
+#### Insertion sort
+```shell script
+python -m insertion 64 1 5 23 63
+```
+
+#### Bubble sort
+```shell script
+python -m bubble 64 1 5 23 63
+```
+
 Example output:
 ```shell script
 Input obtained:

@@ -2,12 +2,15 @@ import pytest
 
 from merge import sort as merge_sort
 from quick import sort as quick_sort
+from insertion import sort as insertion_sort
+from bubble import sort as bubble_sort
 
 
 def test_merge_sort(fixtures):
     for fixture in fixtures:
         assert merge_sort(fixture[0]) == fixture[1]
         assert quick_sort(fixture[0]) == fixture[1]
+        assert bubble_sort(fixture[0]) == fixture[1]
 
 
 @pytest.fixture
