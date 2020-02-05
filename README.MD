@@ -1,6 +1,6 @@
 ### Run test
 ```shell script
-pytest merge_test.py 
+pytest sort_test.py 
 ```
 ### Run example
 #### Merge sort
