@@ -5,6 +5,7 @@ from utils import read_input
 
 
 def sort(arr: List):
+    arr = arr[:]
     if len(arr) <= 1:
         return arr
 

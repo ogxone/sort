@@ -23,6 +23,11 @@ python -m insertion 64 1 5 23 63
 python -m bubble 64 1 5 23 63
 ```
 
+#### Heap sort
+```shell script
+python -m heap 64 1 5 23 63
+```
+
 Example output:
 ```shell script
 Input obtained:
